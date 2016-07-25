@@ -58,7 +58,7 @@ Forms
 .logo{max-width: 50%; margin-top: 20px;µ}
 .logo-manuelgm{width: 40%;}
 
-.carga{background-image:url(../img/loading.gif);background-position:center;background-size:100%;width:100%;height:100%;position:fixed;}
+.carga{background-image:url(../img/loading.gif);background-position:center;background-repeat:no-repeat;background-size:100%;width:100%;height:100%;position:fixed;}
 
 form { margin: 0; }
 /* * Define consistent border, margin, and padding. */
