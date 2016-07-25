@@ -1,5 +1,15 @@
 /***************** Waypoints ******************/
 
+$(document).ready(function(){
+
+window.onload=cerrar;
+function cerrar(){
+$("#carga").animate({"opacity":"0"},1000,function(){$("#carga").css("display","none");});
+}
+$("#carga").click(function(){cerrar();});
+
+});
+
 $(document).ready(function() {
 
 	$('.wp1').waypoint(function() {
@@ -65,6 +75,11 @@ $(function() {
 
 });
 
+/***************** Nav Transformicon ******************/
+
+document.querySelector("#nav-toggle").addEventListener("click", function() {
+	this.classList.toggle("active");
+});
 
 /***************** Overlays ******************/
 
