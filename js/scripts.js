@@ -4,19 +4,9 @@ $(document).ready(function(){
 
 window.onload=cerrar;
 function cerrar(){
-$("#load").animate({"opacity":"0"},1000,function(){$("#load").css("display","none");});
+$("#carga").animate({"opacity":"0"},1000,function(){$("#carga").css("display","none");});
 }
-$("#load").click(function(){cerrar();});
-
-});
-
-$(document).ready(function(){
-
-window.onload=cerrar;
-function cerrar(){
-$("#load2").animate({"opacity":"0"},1000,function(){$("#load2").css("display","none");});
-}
-$("#load2").click(function(){cerrar();});
+$("#carga").click(function(){cerrar();});
 
 });
 
