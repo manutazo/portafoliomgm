@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^no-conocerme$ no-conocerme.html [QSA]
